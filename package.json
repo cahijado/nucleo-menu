@@ -1,0 +1,7 @@
+{
+  "name": "nucleo",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Dominio compartido del Menú semanal: ingredientes, nutrición, criterios de cena/comida y tiempos. Sin dependencias externas — lo usan tanto la generación de recetas como la aplicación."
+}
