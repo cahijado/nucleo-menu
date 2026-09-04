@@ -103,6 +103,12 @@ const PROPIOS = [
   I("chia", "Semillas de chía", "aceite y grasas", 486, 17, 42, 0, 31, 28, 34, [], { cda: 12, cdta: 4 }),
   I("soja_sg", "Salsa de soja sin gluten", "otros", 60, 6, 6, 1, 0, 0, 0, ["soja"], { cda: 16 }),
   I("vinagre", "Vinagre de manzana sin filtrar", "otros", 22, 0, 0.9, 0.4, 0, 0, 0, [], { cda: 15 }),
+  /* No es vinagre: es vinagre balsámico reducido con azúcar hasta quedar en
+     jarabe, así que su composición se parece más a un almíbar que a un
+     vinagre. El USDA no tiene una ficha genérica —solo de marcas
+     concretas—, y varían bastante entre sí (167-267 kcal/100 g según la
+     marca); se toma un valor intermedio de esa horquilla. */
+  I("crema_balsamico", "Crema de vinagre balsámico", "otros", 233, 0, 47, 44, 0, 0, 0, [], { cda: 18 }),
   I("mostaza", "Mostaza de Dijon", "otros", 66, 4, 6, 1, 3, 2, 3, ["mostaza"], { cdta: 5 }),
   I("miel", "Miel", "otros", 304, 0.3, 82, 82, 0, 0, 0, [], { cdta: 7 }),
   I("cacao", "Cacao puro en polvo", "otros", 228, 20, 58, 1.8, 14, 5, 33, [], { cda: 6, cdta: 2 }),
