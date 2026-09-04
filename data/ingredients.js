@@ -82,6 +82,14 @@ const PROPIOS = [
   I("lentejas", "Lentejas cocidas", "legumbre", 116, 9, 20, 1.8, 0.4, 0.2, 7.9, [], {}),
   I("alubias", "Alubias cocidas", "legumbre", 127, 8.7, 22, 0.3, 0.5, 0.3, 6.4, [], {}),
   I("quinoa", "Quinoa (en seco)", "cereal", 368, 14, 64, 2, 6, 5, 7, [], {}),
+  /* No hay ficha propia de fideos de boniato (dangmyeon) en BEDCA ni en el
+     USDA: es casi almidón puro con agua, y el USDA sí tiene esa composición
+     exacta para los fideos de judía mungo («cellophane noodles», FDC
+     174258, deshidratados): 351 kcal, 0,16 g de proteína, 86,1 g de
+     hidratos, 0,5 g de fibra, 0,06 g de grasa por 100 g. Se usa ese valor
+     tal cual —dos fideos de almidón vegetal, prácticamente iguales en
+     nutrición— en vez de inventar uno propio. */
+  I("fideos_boniato", "Fideos de boniato (en seco)", "cereal", 351, 0.2, 86, 0, 0.1, 0.05, 0.5, [], { taza: 100 }),
   I("avena", "Copos de avena sin gluten", "cereal", 379, 13, 67, 1, 7, 5, 10, [], { cda: 10, taza: 90 }),
   I("pan_sg", "Pan sin gluten", "cereal", 250, 5, 45, 3, 5, 3, 4, [], { loncha: 30 }),
   I("tortitas_maiz", "Tortitas de maíz", "cereal", 387, 7.5, 81, 0.8, 3, 1.5, 2.6, [], { ud: 8 }),
