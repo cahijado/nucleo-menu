@@ -269,4 +269,37 @@ export const INGREDIENTES_RECETARIO = [
      grasa por cada 100, y contarlo como ración de fruta sería mentir en el
      único sitio donde eso se nota. */
   I("coco_rallado", "Coco rallado (deshidratado)", "aceite y grasas", 660, 6.9, 24, 7.4, 65, 5.5, 16, [], { cda: 6, taza: 80 }),
+
+  /* ---------- altas de la revisión de la cuarentena ----------
+
+     Quince nombres de la cuarentena de 65 recetas que sí son un alimento con
+     una composición que se puede citar (USDA FoodData Central o CIQUAL
+     francés para los que no tienen equivalente en BEDCA). El vermut rojo, el
+     vino de Madeira y el jerez oloroso no suman entrada propia: caen en
+     «vino_dulce», igual que ya hacía el jerez seco a secas; el Curaçao cae
+     en «brandy» junto con el resto de licores. Los que se quedaron fuera del
+     todo —«salsa agridulce», «crema de semillas», «salsa tandoori», «crema
+     vegana de chipotle», el alga nori en polvo— siguen sin entrar por el
+     mismo motivo que los cinco de la auditoría anterior: son preparaciones
+     caseras o de marca que cambian demasiado de una versión a otra como
+     para ponerles un número sin inventarlo. */
+  I("pan_hamburguesa", "Pan de hamburguesa", "cereal", 264, 8.9, 51, 5.4, 3.6, 0.8, 2.3, ["gluten"], { ud: 50 }),
+  I("pan_pita", "Pan de pita", "cereal", 275, 9.1, 55.7, 1.6, 1.2, 0.2, 2.2, ["gluten"], { ud: 60 }),
+  I("oreja_cerdo", "Oreja de cerdo", "carne", 234, 20, 0, 0, 17, 6, 0, [], { ud: 100 }),
+  I("cereza", "Cereza sin hueso", "fruta", 63, 1.1, 16, 12.8, 0.2, 0.04, 2.1, [], { ud: 8, taza: 145 }),
+  I("creme_fraiche", "Crème fraîche", "lácteos", 292, 2.2, 2.9, 2.9, 30, 19, 0, ["lácteos"], { cda: 15 }),
+  /* «Buey» en estas recetas es una pieza para asar o filetear (lomo alto,
+     entrecot…) o carne picada para hamburguesa, más grasa que la ternera de
+     guiso que ya había en la tabla: separarlo evita que salga más magro de
+     lo que es. */
+  I("buey", "Buey (corte para asar o filetear)", "carne", 250, 20, 0, 0, 18, 7.5, 0, [], { ud: 200 }),
+  I("buey_picada", "Carne de buey picada", "carne", 254, 17, 0, 0, 20, 8, 0, [], {}),
+  I("berros", "Berros", "verdura", 11, 2.3, 1.3, 0.2, 0.1, 0.02, 0.5, [], { "puñado": 20 }),
+  I("mezclum", "Hojas variadas de ensalada (mezclum)", "verdura", 17, 1.4, 2.9, 1, 0.2, 0.03, 1.5, [], { "puñado": 25 }),
+  I("salsa_pescado", "Salsa de pescado (nam pla)", "otros", 35, 5.1, 3.6, 0, 0, 0, 0, ["pescado"], { cda: 15, cdta: 5 }),
+  I("alga_wakame", "Alga wakame deshidratada", "verdura", 45, 3, 9, 0.6, 0.6, 0.1, 0.5, [], { cda: 3 }),
+  I("menestra_verduras", "Menestra de verduras congelada", "verdura", 65, 3, 12, 4, 0.5, 0.1, 4, [], { taza: 130 }),
+  I("salsa_ostras", "Salsa de ostras", "otros", 51, 1.4, 11, 8, 0.3, 0.05, 0.3, ["marisco"], { cda: 18, cdta: 6 }),
+  I("col_china", "Col china o pak choi", "verdura", 13, 1.5, 2.2, 1.2, 0.2, 0.03, 1, [], { ud: 300, hoja: 30 }),
+  I("crema_coco", "Crema de coco", "otros", 330, 3, 6.7, 6.6, 34.7, 30.7, 0, [], { cda: 18 }),
 ];
